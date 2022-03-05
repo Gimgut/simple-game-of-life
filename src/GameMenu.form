@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GameMenu">
+  <grid id="27dc6" binding="panelGameMenu" layout-manager="GridLayoutManager" row-count="8" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="488" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-13289931"/>
+      <foreground color="-4474111"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d65ea" class="javax.swing.JButton" binding="buttonStart">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <actionCommand value=""/>
+          <text value="Start"/>
+        </properties>
+      </component>
+      <component id="19e5b" class="javax.swing.JButton" binding="buttonPause">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pause"/>
+        </properties>
+      </component>
+      <component id="3c453" class="javax.swing.JLabel" binding="labelGameSpeed">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4473925"/>
+          <inheritsPopupMenu value="true"/>
+          <labelFor value=""/>
+          <text value="Speed (upd/sec)"/>
+        </properties>
+      </component>
+      <component id="9c09a" class="javax.swing.JSpinner" binding="spinnerGameSpeed" custom-create="true">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="bb164" class="javax.swing.JButton" binding="buttonReset">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Clear"/>
+        </properties>
+      </component>
+      <vspacer id="f4b72">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="f7540" class="javax.swing.JLabel" binding="labelStatusValue">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-4473925"/>
+          <text value="PAUSED"/>
+        </properties>
+      </component>
+      <component id="ab87e" class="javax.swing.JComboBox" binding="comboBoxFigures" custom-create="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9a8d" class="javax.swing.JButton" binding="buttonRedraw">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Redraw"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
